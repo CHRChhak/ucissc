@@ -1,4 +1,4 @@
-## The paper that started it all...
+# The paper that started it all...
 
 [Universal Composability is Secure Compilation](https://arxiv.org/pdf/1910.08634.pdf)
 - Marco Patrignani, Riad S. Wahby, Robert Künnemann
@@ -26,6 +26,6 @@ maintain "memory safety" of the compiled Java code?
 i.e. How can we prove our compiler "maintains the memory safety of the compile Java code"? (Whatever that means).
 
 
-
+##### SC papers
 [Formal Approaches to Secure Compilation](https://theory.stanford.edu/~mp/mp/Publications_files/main-full.pdf)
 - Marco Patrignani, Amal Ahmed, Dave Clarke
