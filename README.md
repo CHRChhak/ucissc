@@ -25,6 +25,8 @@ maintain "memory safety" of the compiled Java code?
 - what kind of guarantees about source level security (or really, any) abstractions we can provide in target code in a separate compilation setting.
 i.e. How can we prove our compiler "maintains the memory safety of the compile Java code"? (Whatever that means).
 
+In our little tour of SC, we looked at a property called _(Contextual) Equivalence preservation_, which is a candidate for a "standard" notion of secure compilation.
+Back translations are one technique to prove this property and were mentioned in the UCisSC paper as something that could contribute to UC side.
 
 ##### SC papers
 [Formal Approaches to Secure Compilation](https://theory.stanford.edu/~mp/mp/Publications_files/main-full.pdf)
