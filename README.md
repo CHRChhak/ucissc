@@ -18,8 +18,8 @@ Semantics preservation typically only works for compilers that process _whole pr
 to cases where you link with a pre-compiled library, or libraries written in another language. This is precisely because programmers
 are interested in linking/combining code from vastly different source languages where it is difficult to give their semantics a notion of "behaves the same".  
 
-Consider compiled Java (a memory safe langauge) code that is linked against a C (a memory unsafe language) library.
-*Secure compilation* is the current area of research that studies
+Consider compiled Java (a memory safe langauge) code that is linked against a C (a memory unsafe language) library.  
+***Secure compilation*** is the current area of research that studies
 - the properties of interest (to verify) in a separate compilation setting  i.e. what does it mean for our compiler to
 maintain "memory safety" of the compiled Java code?
 - what kind of guarantees about source level security (or really, any) abstractions we can provide in target code in a separate compilation setting.
